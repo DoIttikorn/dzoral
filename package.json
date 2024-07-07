@@ -1,0 +1,27 @@
+{
+  "name": "dzoral",
+  "displayName": "dzoral",
+  "description": "",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.91.0"
+  },
+  "categories": [
+    "Snippets"
+  ],
+  "publisher": "dzoral",
+  "icon": "icons/icon.png",
+  "author": {
+    "name": "Ittikorn Chawkamud",
+    "email": "do.ittikorn@gmail.com",
+    "url": "https://github.com/DoIttikorn"
+  },
+  "contributes": {
+    "snippets": [
+      {
+        "language": "json",
+        "path": "./snippets/snippets.code-snippets"
+      }
+    ]
+  }
+}
