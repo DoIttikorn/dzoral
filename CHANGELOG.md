@@ -1,7 +1,9 @@
-# DZoral
+# Change Log
 
-This project is poc for zoral spippets
+All notable changes to the "dzoral" extension will be documented in this file.
 
-## Features
+Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
-Spippet code for ui zoral in json file
+## [Unreleased]
+
+- Initial release

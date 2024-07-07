@@ -1,18 +1,16 @@
 # dzoral README
 
-This is the README for your extension "dzoral". After writing up a brief description, we recommend including the following sections.
+This project for POC snippets code
 
 ## Features
 
-Describe specific features of your extension including screenshots of your extension in action. Image paths are relative to this README file.
+first: ButtonAction
 
-For example if there is an image subfolder under your extension project workspace:
-
-\!\[feature X\]\(images/feature-x.png\)
+<!-- \!\[feature X\]\(images/feature-x.png\) -->
 
 > Tip: Many popular extensions utilize animations. This is an excellent way to show off your extension! We recommend short, focused animations that are easy to follow.
 
-## Requirements
+<!-- ## Requirements
 
 If you have any requirements or dependencies, add a section describing those and how to install and configure them.
 
@@ -59,7 +57,7 @@ You can author your README using Visual Studio Code. Here are some useful editor
 
 ## For more information
 
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
+* [Visual Studio Code's Markdown Support](https://code.visualstudio.com/docs/languages/markdown)
 * [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
 
-**Enjoy!**
+**Enjoy!** -->
