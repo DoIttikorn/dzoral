@@ -16,6 +16,10 @@
     "email": "do.ittikorn@gmail.com",
     "url": "https://github.com/DoIttikorn"
   },
+  "repository": {
+    "url": "https://github.com/DoIttikorn/dzoral",
+    "type": "git"
+  },
   "contributes": {
     "snippets": [
       {
