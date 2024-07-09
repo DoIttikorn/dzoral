@@ -4,7 +4,9 @@ This project for POC snippets code
 
 ## Features
 
-first: ButtonAction
+- ButtonAction
+- ruleAnd
+- numberFieldBath
 
 <!-- \!\[feature X\]\(images/feature-x.png\) -->
 
