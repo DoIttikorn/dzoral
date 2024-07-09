@@ -11,8 +11,60 @@
             "        \"route\" : \"$1\",",
             "        \"sx\" : {}",
             "    }",
-            "}"
+            "}$2"
         ],
         "description": "create button Action "
+    },
+    "numberFieldBath": {
+        "prefix": "numberFieldBath",
+        "body": [
+            "{",
+            "    \"type\": \"NumberField\",",
+            "    \"label\": false,",
+            "    \"scope\": \"$1\",",
+            "    \"options\": {",
+            "        \"decimalScale\": \"2\",",
+            "        \"fixedDecimalScale\": true,",
+            "        \"thousandSeparator\": \",\",",
+            "        \"endAdornmentTypography\": {",
+            "            \"text\": \"บาท\"",
+            "        },",
+            "        \"hideRequiredAsterisk\": true,",
+            "        \"fullwidth\": true,",
+            "        \"variant\": \"outlined\",",
+            "        \"sx\": {",
+            "            \"text-align-last\": \"right\",",
+            "            \"height\": \"38px\"",
+            "        }",
+            "    }",
+            "}$2"
+        ],
+        "description": "NumberField of Bath"
+    },
+    "ruleAnd": {
+        "prefix": "ruleAnd",
+        "body": [
+            "    \"rule\": {",
+            "        \"effect\": \"$1\",",
+            "        \"condition\": {",
+            "            \"type\": \"AND\",",
+            "            \"conditions\": [",
+            "                {",
+            "                    \"scope\": \"$2\",",
+            "                    \"schema\": {",
+            "                        \"const\": \"$3\"",
+            "                    }",
+            "                },",
+            "                {",
+            "                    \"scope\": \"$4\",",
+            "                    \"schema\": {",
+            "                        \"enum\": [\"$5\"]",
+            "                    }",
+            "                }",
+            "            ]",
+            "        }",
+            "    }",
+        ],
+        "description": "enter rule condition in element"
     }
 }
