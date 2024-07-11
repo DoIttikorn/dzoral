@@ -5,8 +5,17 @@ This project for POC snippets code
 ## Features
 
 - ButtonAction
-- ruleAnd
 - numberFieldBath
+- ruleAnd
+- gridlayout
+- gridlayout6
+- selectField
+- requiredField
+- typegraphy
+- stackLayout
+- formMapperListener
+- submitAction
+- textField
 
 <!-- \!\[feature X\]\(images/feature-x.png\) -->
 
