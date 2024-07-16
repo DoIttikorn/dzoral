@@ -16,6 +16,10 @@ This project for POC snippets code
 - formMapperListener
 - submitAction
 - textField
+- boxLayout
+- radioGroupEnumPath
+- radioGroupEnum
+- radioGroupEnumPathBody2
 
 <!-- \!\[feature X\]\(images/feature-x.png\) -->
 

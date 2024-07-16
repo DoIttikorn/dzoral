@@ -245,4 +245,72 @@
         ],
         "description": "textField"
     },
+    "boxLayout": {
+        "prefix": "boxLayout",
+        "body": [
+            "{",
+            "    \"type\": \"BoxLayout\",",
+            "    \"options\": {",
+            "        \"direction\": \"row\"",
+            "    },",
+            "    \"elements\": [$1]",
+            "}$2"
+        ],
+        "description": "BoxLayout"
+    },
+    "radioGroupEnumPath": {
+        "prefix": "",
+        "body": [
+            "{",
+            "    \"type\": \"RadioGroupField\", ",
+            "    \"scope\": \"$1\",",
+            "    \"label\": false,",
+            "    \"errors\": {",
+            "      \"required\": \"กรุณาระบุข้อมูลให้ครบถ้วน\" ",
+            "    },",
+            "    \"options\": {",
+            "      \"row\": \"false\",",
+            "      \"labelPlacement\": \"end\",",
+            "      \"hideRequiredAsterisk\": true,",
+            "      \"enumDataPath\": \"$2\",",
+            "      \"radioSize\": \"small\"",
+            "    }",
+            "  }$3"
+        ],
+        "description": "radioGroup enum Path"
+    },
+    "radioGroupEnum": {
+        "prefix": "radioGroupEnum",
+        "body": [
+            "{",
+            "    \"type\": \"RadioGroupField\",",
+            "    \"scope\": \"$1\",",
+            "    \"label\": \"$2\",",
+            "    \"options\": {",
+            "        \"enum\": []",
+            "        \"labelPlacement\": \"end\",",
+            "        \"row\": \"true\"",
+            "    }",
+            "}$3"
+        ],
+        "description": "radioGroup enum"
+    },
+    "radioGroupEnumPathBody2": {
+        "prefix": "radioGroupEnumPathBody2",
+        "body": [
+            "{",
+            "    \"type\": \"RadioGroupField\",",
+            "    \"scope\": \"$1\",",
+            "    \"label\": {",
+            "        \"show\": false",
+            "    },",
+            "    \"options\": {",
+            "        \"row\": \"true\",",
+            "        \"variant\": \"body2\",",
+            "        \"enumDataPath\": \"$2\"",
+            "    }",
+            "}$3"
+        ],
+        "description": "radioGroup enumDataPath variant body2"
+    }
 }
